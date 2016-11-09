@@ -5,7 +5,7 @@ import java.io.InputStream;
 import java.io.StringWriter;
 
 public class StreamReader extends Thread{
-
+	//http://www.rgagnon.com/javadetails/java-0480.html
 	private InputStream is;
 	private StringWriter sw;
 
