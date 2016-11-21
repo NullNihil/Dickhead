@@ -26,8 +26,5 @@ public class Main{
 		if(osName.toLowerCase().contains("windows")){
 			System.out.println("WINDOWS DETECTED");
 		}
-		if(System.getProperty("os.name").toString().toLowerCase().contains("mac")){
-			System.out.println("BUCCHERI DETECTED");
-		}
 	}
 }
