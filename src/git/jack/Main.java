@@ -24,6 +24,7 @@ public class Main{
 		//		}
 
 		//metti nome di os in osName, vedi se contiene "windows", se sì allora è windows.
+		// The Hack Alez no Name Tot A Cas
 		String osName = System.getenv("OS");
 		if(osName.toLowerCase().contains("windows")){
 			System.out.println("WINDOWS DETECTED");
